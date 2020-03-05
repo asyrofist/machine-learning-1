@@ -17,6 +17,8 @@
   - linear regression
 ## PA3:
   - MultiLayer Perceptron (MLP)
+    - Activation Functions (forward and backward): linear, relu, tanh
+    - dropout
 ## PA4:
   - K-Means 
     - basic K-means clustering algorithm
