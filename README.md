@@ -1,4 +1,5 @@
-# Machine Learning Programming Assignments
+# Machine Learning Algorithms
+#### (Programming Assignments)
 - all algorithms implemented in Python v3.6.4
 - Packaged limited to:
   - Numpy (1.13.1)
