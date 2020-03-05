@@ -7,20 +7,20 @@
   - Matplotlib (2.0.2)
   - Pandas (0.20.3)
   ----------------------------------------
-## PA1:
+### PA1:
   - K-Nearest Neighbors (KNN)
     - distance functions
     - normalization
   - Decision Trees
     - pruning
-## PA2:
+### PA2:
   - Binary and multiclass classification
   - linear regression
-## PA3:
+### PA3:
   - MultiLayer Perceptron (MLP)
     - Activation Functions (forward and backward): linear, relu, tanh
     - dropout
-## PA4:
+### PA4:
   - K-Means 
     - basic K-means clustering algorithm
     - K-means++ algorithm
