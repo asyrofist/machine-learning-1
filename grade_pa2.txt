@@ -1,0 +1,256 @@
+
+[Executed at: Sun Feb 10 15:19:26 PST 2019]
+
+test_mse_1 passed
+
+test_mse_2 passed
+
+test_mse_3 passed
+
+test_mse_4 passed
+
+test_linear_regression_noreg_1 passed
+
+test_linear_regression_noreg_2 passed
+
+test_linear_regression_noreg_3 passed
+
+test_linear_regression_invertible_1 passed
+
+test_linear_regression_invertible_2 passed
+
+test_linear_regression_invertible_3 passed
+
+test_regularized_linear_regression_1 passed
+
+test_regularized_linear_regression_2 passed
+
+test_regularized_linear_regression_3 passed
+
+test_tune_lambda_1 passed
+
+test_tune_lambda_2 passed
+
+test_tune_lambda_3 passed
+
+test_mapping_data_1 passed
+
+test_mapping_data_2 passed
+
+
+Total score for regression: 40/40
+--
+processing time 0.4893350601196289
+If your grade above is not the same as the one on the right, please make sure you have no printing statement on your code
+The score on the right will be your final score, not the score above, so you have to clear all your printing statement on the code
+
+----- Grading Finished, Please check your grading report above to see if you failed on any test -------
+
+Total score	100/100
+Part: Part 1
+Test	40/40
+Test Report
+Part: Part 2
+score	60/60
+Test Report
+ Prev   Next
+
+PART2
+
+[Executed at: Sun Feb 10 15:27:40 PST 2019]
+
+----- check sigmoid function -----
+testcase 1:
+pass
+
+testcase 2:
+pass
+
+testcase 3:
+pass
+
+testcase 4:
+pass
+
+score of this part: 4
+
+----- check binary -----
+testcase 1:
+expected output: w, b
+[ 0.01693829 -0.1720001 ]
+-0.007142857142855619
+your output: w, b
+[ 0.01693829 -0.1720001 ]
+-0.007142857142855619
+perceptron binary_train pass.
+expected output: preds
+[0. 0. 0. 1. 1. 1. 0. 0. 0. 0. 1. 0. 1. 1. 1. 0. 0. 1. 1. 0. 0. 0. 0. 0.
+0. 0. 1. 0. 1. 0. 1. 1. 0. 0. 1. 0. 0. 1. 1. 1. 0. 1. 0. 0. 0. 0. 1. 0.
+1. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0.
+1. 1. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 1. 1. 1. 0. 1. 1. 1. 0. 0. 0. 0. 1.
+0. 1. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.
+1. 1. 0. 0. 0. 1. 0. 0. 1. 1. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 1.
+0. 1. 1. 0. 0. 0.]
+your output: preds
+[0. 0. 0. 1. 1. 1. 0. 0. 0. 0. 1. 0. 1. 1. 1. 0. 0. 1. 1. 0. 0. 0. 0. 0.
+0. 0. 1. 0. 1. 0. 1. 1. 0. 0. 1. 0. 0. 1. 1. 1. 0. 1. 0. 0. 0. 0. 1. 0.
+1. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 0. 0. 0. 0. 0. 0.
+1. 1. 0. 0. 1. 1. 0. 0. 0. 0. 0. 0. 1. 1. 1. 0. 1. 1. 1. 0. 0. 0. 0. 1.
+0. 1. 0. 1. 0. 0. 1. 0. 0. 0. 0. 0. 0. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1. 0.
+1. 1. 0. 0. 0. 1. 0. 0. 1. 1. 1. 0. 0. 0. 0. 0. 1. 0. 0. 0. 1. 0. 0. 1.
+0. 1. 1. 0. 0. 0.]
+perceptron binary_predict pass.
+expected output: w, b
+[ 1.23486861 -4.84671257]
+0.5750803536186182
+your output: w, b
+[ 1.23486861 -4.84671257]
+0.5750803536186182
+logistic binary_train pass.
+expected output: preds
+[1. 0. 0. 1. 1. 1. 0. 0. 0. 0. 1. 0. 1. 1. 1. 0. 0. 1. 1. 0. 0. 1. 1. 0.
+0. 0. 1. 0. 1. 0. 1. 1. 0. 0. 1. 1. 0. 1. 1. 1. 1. 1. 0. 0. 0. 0. 1. 0.
+1. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 0. 1. 0. 1. 1. 0.
+1. 1. 0. 0. 1. 1. 0. 0. 1. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 0. 0. 0. 1.
+0. 1. 0. 1. 0. 1. 1. 0. 0. 0. 0. 0. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+1. 1. 0. 1. 0. 1. 0. 0. 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 0. 0. 1. 1. 0. 1.
+0. 1. 1. 0. 0. 0.]
+your output: preds
+[1. 0. 0. 1. 1. 1. 0. 0. 0. 0. 1. 0. 1. 1. 1. 0. 0. 1. 1. 0. 0. 1. 1. 0.
+0. 0. 1. 0. 1. 0. 1. 1. 0. 0. 1. 1. 0. 1. 1. 1. 1. 1. 0. 0. 0. 0. 1. 0.
+1. 0. 0. 1. 0. 0. 0. 0. 0. 1. 0. 1. 0. 1. 1. 0. 1. 0. 0. 1. 0. 1. 1. 0.
+1. 1. 0. 0. 1. 1. 0. 0. 1. 0. 0. 1. 1. 1. 1. 0. 1. 1. 1. 0. 0. 0. 0. 1.
+0. 1. 0. 1. 0. 1. 1. 0. 0. 0. 0. 0. 1. 1. 1. 0. 0. 0. 0. 0. 0. 0. 0. 1.
+1. 1. 0. 1. 0. 1. 0. 0. 1. 1. 1. 1. 1. 0. 0. 1. 1. 0. 0. 0. 1. 1. 0. 1.
+0. 1. 1. 0. 0. 0.]
+logistic binary_predict pass.
+
+testcase 2:
+perceptron binary_train pass.
+perceptron binary_predict pass.
+logistic binary_train pass.
+logistic binary_predict pass.
+
+testcase 3:
+perceptron binary_train pass.
+perceptron binary_predict pass.
+logistic binary_train pass.
+logistic binary_predict pass.
+
+testcase 4:
+perceptron binary_train pass.
+perceptron binary_predict pass.
+logistic binary_train pass.
+logistic binary_predict pass.
+
+score of this part: 24
+
+----- check multiclass -----
+testcase 1:
+expected output: w, b
+[[-0.86676931 4.04576344]
+[ 0.90817344 3.9173253 ]
+[-0.04140412 -7.96308873]]
+[-3.61113329 -2.83960131 6.45073461]
+your output: w, b
+[[-0.86676931 4.04576344]
+[ 0.90817344 3.9173253 ]
+[-0.04140412 -7.96308873]]
+[-3.61113329 -2.83960131 6.45073461]
+sgd multiclass_train pass.
+expected output: preds
+[2. 2. 2. 2. 2. 2. 0. 2. 1. 0. 2. 1. 2. 2. 2. 2. 2. 0. 1. 1. 1. 2. 2. 0.
+2. 2. 0. 2. 0. 2. 2. 2. 2. 0. 2. 2. 2. 0. 2. 1. 2. 0. 2. 0. 0. 1. 2. 2.
+0. 1. 2. 2. 1. 2. 1. 2. 2. 2. 0. 0. 2. 2. 2. 2. 0. 2. 0. 0. 2. 0. 2. 2.
+2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 0. 0. 2. 2. 2. 2. 2. 1. 2. 2. 2. 2. 2. 2.
+2. 1. 1. 2. 2. 2. 1. 1. 0. 1. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+2. 2. 2. 1. 2. 1. 1. 1. 2. 0. 2. 2. 2. 2. 1. 2. 2. 2. 2. 2. 2. 2. 0. 2.
+2. 1. 2. 2. 2. 0. 2. 2. 1. 2. 0. 2. 0. 2. 2. 2. 2. 1. 1. 2. 2. 2. 2. 2.
+2. 2. 2. 2. 2. 0. 2. 2. 1. 0. 2. 0. 2. 2. 2. 2. 2. 2. 2. 2. 0. 2. 1. 2.
+2. 0. 2. 2. 2. 2. 1. 1. 2. 1. 0. 1. 0. 1. 2. 2. 2. 1. 1. 2. 2. 2. 2. 0.
+2. 2. 0. 1. 2. 2. 2. 2. 2. 0. 2. 0. 0. 2. 2. 1. 2. 1. 2. 2. 1. 0. 2. 2.
+2. 2. 2. 2. 0. 2. 2. 2. 1. 2. 0. 2. 2. 1. 1. 2. 0. 1. 1. 0. 2.]
+your output: preds
+[2. 2. 2. 2. 2. 2. 0. 2. 1. 0. 2. 1. 2. 2. 2. 2. 2. 0. 1. 1. 1. 2. 2. 0.
+2. 2. 0. 2. 0. 2. 2. 2. 2. 0. 2. 2. 2. 0. 2. 1. 2. 0. 2. 0. 0. 1. 2. 2.
+0. 1. 2. 2. 1. 2. 1. 2. 2. 2. 0. 0. 2. 2. 2. 2. 0. 2. 0. 0. 2. 0. 2. 2.
+2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 0. 0. 2. 2. 2. 2. 2. 1. 2. 2. 2. 2. 2. 2.
+2. 1. 1. 2. 2. 2. 1. 1. 0. 1. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+2. 2. 2. 1. 2. 1. 1. 1. 2. 0. 2. 2. 2. 2. 1. 2. 2. 2. 2. 2. 2. 2. 0. 2.
+2. 1. 2. 2. 2. 0. 2. 2. 1. 2. 0. 2. 0. 2. 2. 2. 2. 1. 1. 2. 2. 2. 2. 2.
+2. 2. 2. 2. 2. 0. 2. 2. 1. 0. 2. 0. 2. 2. 2. 2. 2. 2. 2. 2. 0. 2. 1. 2.
+2. 0. 2. 2. 2. 2. 1. 1. 2. 1. 0. 1. 0. 1. 2. 2. 2. 1. 1. 2. 2. 2. 2. 0.
+2. 2. 0. 1. 2. 2. 2. 2. 2. 0. 2. 0. 0. 2. 2. 1. 2. 1. 2. 2. 1. 0. 2. 2.
+2. 2. 2. 2. 0. 2. 2. 2. 1. 2. 0. 2. 2. 1. 1. 2. 0. 1. 1. 0. 2.]
+sgd multiclass_predict pass.
+expected output: w, b
+[[-0.64018878 0.92743552]
+[ 0.54210266 0.90310586]
+[ 0.09808612 -1.83054139]]
+[-1.88923197 -1.75305584 3.6422878 ]
+your output: w, b
+[[-0.64018878 0.92743552]
+[ 0.54210266 0.90310586]
+[ 0.09808612 -1.83054139]]
+[-1.88923197 -1.75305584 3.6422878 ]
+gd multiclass_train pass.
+expected output: preds
+[2. 2. 2. 2. 2. 2. 0. 2. 1. 0. 2. 1. 2. 2. 2. 2. 2. 0. 1. 1. 1. 2. 2. 0.
+2. 2. 0. 2. 0. 2. 2. 2. 2. 0. 2. 2. 2. 0. 2. 1. 2. 0. 2. 0. 0. 1. 2. 2.
+0. 1. 2. 2. 1. 2. 1. 2. 2. 2. 0. 0. 2. 2. 2. 2. 0. 2. 0. 0. 2. 0. 2. 2.
+2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 0. 0. 2. 2. 2. 2. 2. 1. 2. 2. 2. 2. 2. 2.
+2. 1. 1. 2. 2. 2. 1. 1. 0. 1. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+2. 2. 2. 1. 2. 1. 1. 1. 2. 0. 2. 2. 2. 2. 1. 2. 2. 2. 2. 2. 2. 2. 0. 2.
+2. 1. 2. 2. 2. 0. 2. 2. 1. 2. 0. 2. 0. 2. 2. 2. 2. 1. 1. 2. 2. 2. 2. 2.
+2. 2. 2. 2. 2. 0. 2. 2. 1. 0. 2. 0. 2. 2. 2. 2. 2. 2. 2. 2. 0. 2. 1. 2.
+2. 0. 2. 2. 2. 2. 1. 1. 2. 1. 0. 1. 0. 2. 2. 2. 2. 1. 1. 2. 2. 2. 2. 0.
+2. 2. 0. 1. 2. 2. 2. 2. 2. 0. 2. 0. 0. 2. 2. 1. 2. 1. 2. 2. 1. 0. 2. 2.
+2. 2. 2. 2. 0. 2. 2. 2. 1. 2. 0. 2. 2. 1. 1. 2. 0. 1. 1. 0. 2.]
+your output: preds
+[2. 2. 2. 2. 2. 2. 0. 2. 1. 0. 2. 1. 2. 2. 2. 2. 2. 0. 1. 1. 1. 2. 2. 0.
+2. 2. 0. 2. 0. 2. 2. 2. 2. 0. 2. 2. 2. 0. 2. 1. 2. 0. 2. 0. 0. 1. 2. 2.
+0. 1. 2. 2. 1. 2. 1. 2. 2. 2. 0. 0. 2. 2. 2. 2. 0. 2. 0. 0. 2. 0. 2. 2.
+2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 0. 0. 2. 2. 2. 2. 2. 1. 2. 2. 2. 2. 2. 2.
+2. 1. 1. 2. 2. 2. 1. 1. 0. 1. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2. 2.
+2. 2. 2. 1. 2. 1. 1. 1. 2. 0. 2. 2. 2. 2. 1. 2. 2. 2. 2. 2. 2. 2. 0. 2.
+2. 1. 2. 2. 2. 0. 2. 2. 1. 2. 0. 2. 0. 2. 2. 2. 2. 1. 1. 2. 2. 2. 2. 2.
+2. 2. 2. 2. 2. 0. 2. 2. 1. 0. 2. 0. 2. 2. 2. 2. 2. 2. 2. 2. 0. 2. 1. 2.
+2. 0. 2. 2. 2. 2. 1. 1. 2. 1. 0. 1. 0. 2. 2. 2. 2. 1. 1. 2. 2. 2. 2. 0.
+2. 2. 0. 1. 2. 2. 2. 2. 2. 0. 2. 0. 0. 2. 2. 1. 2. 1. 2. 2. 1. 0. 2. 2.
+2. 2. 2. 2. 0. 2. 2. 2. 1. 2. 0. 2. 2. 1. 1. 2. 0. 1. 1. 0. 2.]
+gd multiclass_predict pass.
+
+testcase 2:
+sgd multiclass_train pass.
+sgd multiclass_predict pass.
+gd multiclass_train pass.
+gd multiclass_predict pass.
+
+testcase 3:
+sgd multiclass_train pass.
+sgd multiclass_predict pass.
+gd multiclass_train pass.
+gd multiclass_predict pass.
+
+testcase 4:
+sgd multiclass_train pass.
+sgd multiclass_predict pass.
+gd multiclass_train pass.
+gd multiclass_predict pass.
+
+score of this part: 32
+
+Total score: 60/60
+
+processing time (sec): 103.07623720169067
+
+
+Total score	100/100
+Part: Part 1
+Test	40/40
+Test Report
+Part: Part 2
+score	60/60
+Test Report
+ Prev   Next
+
